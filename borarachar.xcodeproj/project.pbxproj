@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0EB5B1723DE6B7E00F23FBD /* CalculosBoraRachar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EB5B1623DE6B7E00F23FBD /* CalculosBoraRachar.swift */; };
 		E0EBC39123DCD5F100929461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC39023DCD5F100929461 /* AppDelegate.swift */; };
 		E0EBC39323DCD5F100929461 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC39223DCD5F100929461 /* SceneDelegate.swift */; };
 		E0EBC39523DCD5F100929461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC39423DCD5F100929461 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		E0EBC3A023DCD5F200929461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EBC39E23DCD5F200929461 /* LaunchScreen.storyboard */; };
 		E0EBC3AB23DCD5F300929461 /* boraracharTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC3AA23DCD5F300929461 /* boraracharTests.swift */; };
 		E0EBC3B623DCD5F300929461 /* boraracharUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EBC3B523DCD5F300929461 /* boraracharUITests.swift */; };
+		E0EC110F23DFBF320056D02F /* StructureItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC110E23DFBF320056D02F /* StructureItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0EB5B1623DE6B7E00F23FBD /* CalculosBoraRachar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculosBoraRachar.swift; sourceTree = "<group>"; };
 		E0EBC38D23DCD5F100929461 /* borarachar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = borarachar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EBC39023DCD5F100929461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0EBC39223DCD5F100929461 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		E0EBC3B123DCD5F300929461 /* boraracharUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boraracharUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EBC3B523DCD5F300929461 /* boraracharUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boraracharUITests.swift; sourceTree = "<group>"; };
 		E0EBC3B723DCD5F300929461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EC110E23DFBF320056D02F /* StructureItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				E0EBC39E23DCD5F200929461 /* LaunchScreen.storyboard */,
 				E0EBC3A123DCD5F200929461 /* Info.plist */,
 				E0EBC39923DCD5F100929461 /* borarachar.xcdatamodeld */,
+				E0EB5B1623DE6B7E00F23FBD /* CalculosBoraRachar.swift */,
+				E0EC110E23DFBF320056D02F /* StructureItems.swift */,
 			);
 			path = borarachar;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0EC110F23DFBF320056D02F /* StructureItems.swift in Sources */,
 				E0EBC39B23DCD5F100929461 /* borarachar.xcdatamodeld in Sources */,
+				E0EB5B1723DE6B7E00F23FBD /* CalculosBoraRachar.swift in Sources */,
 				E0EBC39523DCD5F100929461 /* ViewController.swift in Sources */,
 				E0EBC39123DCD5F100929461 /* AppDelegate.swift in Sources */,
 				E0EBC39323DCD5F100929461 /* SceneDelegate.swift in Sources */,
